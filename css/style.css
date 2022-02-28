@@ -2,3 +2,61 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
 }
+
+:root {
+  --bg-b-color: #2B2E4A;
+  --bg-dr-color: #903749;
+  --bg-r-color: #E84545;
+  --bg-p-color: #53354A;
+}
+
+.body {
+  overflow-x: hidden;
+}
+
+.container--r, .container--dr, .container--b, .container--p {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container--r {
+  background-color: var(--bg-r-color);
+}
+
+.container--dr {
+  background-color: var(--bg-dr-color);
+}
+
+.container--b {
+  background-color: var(--bg-b-color);
+}
+
+.container--p {
+  background-color: var(--bg-p-color);
+}
+
+.header {
+  height: 3em;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menus {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__linkOpt {
+  color: #fff;
+  margin: auto 10px;
+}
+
+.main {
+  padding-top: 3em;
+}
