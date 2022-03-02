@@ -12,6 +12,7 @@
 
 .body {
   overflow-x: hidden;
+  /*overflow-y: hidden;*/
 }
 
 .container--r, .container--dr, .container--b, .container--p {
@@ -21,6 +22,7 @@
 
 .container--r {
   background-color: var(--bg-r-color);
+  color: var(--bg-b-color);
 }
 
 .container--dr {
@@ -33,6 +35,7 @@
 
 .container--p {
   background-color: var(--bg-p-color);
+  color: var(--bg-r-color);
 }
 
 .header {
@@ -59,4 +62,22 @@
 
 .main {
   padding-top: 3em;
+  display: flex;
+  align-items: center;
+}
+
+.main__img {
+  width: 50%;
+}
+
+.main__info-wrap {
+  padding: 20px;
+}
+
+.main__title {
+  padding-bottom: 30px;
+}
+
+.main__btn {
+  margin-top: 20px;
 }
