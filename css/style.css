@@ -27,6 +27,7 @@
 
 .container--dr {
   background-color: var(--bg-dr-color);
+  color: #fff;
 }
 
 .container--b {
@@ -38,30 +39,31 @@
   color: var(--bg-r-color);
 }
 
-.header {
+.nav {
   height: 3em;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
-}
-
-.header__nav {
   display: flex;
   justify-content: space-between;
+  color: #fff;
 }
 
-.header__menus {
+.nav__brand {
+  margin: auto 10px;
+}
+
+.nav__menus {
   display: flex;
   justify-content: space-around;
 }
 
-.header__linkOpt {
-  color: #fff;
+.nav__linkOpt {
   margin: auto 10px;
+  color: #fff;
 }
 
 .main {
-  padding-top: 3em;
   display: flex;
   align-items: center;
 }
