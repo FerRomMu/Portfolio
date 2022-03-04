@@ -32,6 +32,7 @@
 
 .container--b {
   background-color: var(--bg-b-color);
+  color: #fff;
 }
 
 .container--p {
@@ -46,7 +47,6 @@
   left: 0;
   display: flex;
   justify-content: space-between;
-  color: #fff;
 }
 
 .nav__brand {
@@ -66,10 +66,16 @@
 .main {
   display: flex;
   align-items: center;
+  height: calc(100vh - 3em);
+}
+
+.main__img-container {
+  width: 50%;
+  height: 100%;
 }
 
 .main__img {
-  width: 50%;
+  height: 100%;
 }
 
 .main__info-wrap {
@@ -77,9 +83,13 @@
 }
 
 .main__title {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
+.main__title--big {
+  font-size: 1.7em;
+  font-style: italic;
+}
 .main__btn {
   margin-top: 20px;
 }
