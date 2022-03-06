@@ -75,7 +75,7 @@
 
 .nav__linkOpt {
   color: #fff;
-  padding: 0.9em 1em;
+  padding: 1em;
 }
 
 .nav__linkOpt:hover {
@@ -130,10 +130,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  height: fit-content;
+  min-height: 100vh;
 }
 
 .about__info {
   margin-bottom: 2rem;
+  margin-top: 10px;
 }
 
 .about__title {
@@ -162,3 +165,5 @@
 .about__skillName {
   font-size: 0.8rem;
 }
+
+.proyec
