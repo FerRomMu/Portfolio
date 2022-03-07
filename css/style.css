@@ -86,7 +86,7 @@
   border-top-left-radius: 15px;
 }
 
-.main, .about__info, .about__skills, .proyects__wrapper {
+.main, .about__info, .about__skills, .proyects__container {
   width: 90vw;
   margin: 0 auto;
 }
@@ -97,16 +97,9 @@
   height: calc(100vh - 3em);
 }
 
-.main__img-container {
-  width: 50%;
-  height: 90%;
-  border: 4px solid var(--b-color);
-}
-
 .main__img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
 }
 
 .main__info-wrap {
@@ -166,4 +159,28 @@
   font-size: 0.8rem;
 }
 
-.proyec
+.proyects {
+  display: flex;
+  align-items: center;
+}
+
+.proyects__container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 1fr 8fr;
+  row-gap: 20px;
+}
+
+.proyects__title {
+  padding-bottom: 4px;
+  border-bottom: 4px solid var(--b-color);
+  grid-column: 1 / 3;
+}
+
+.proyects__proyect {
+  background-color: var(--dr-color);
+  color: #fff;
+  border: 4px solid var(--b-color);
+  padding: 20px;
+  margin: 10px;
+}
