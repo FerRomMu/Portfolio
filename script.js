@@ -12,10 +12,7 @@ function hideMenu() {
 }
 
 responsiveMenuButton.addEventListener('click', () => showMenu());
-responsiveOpt.forEach(opt => {
-    opt.addEventListener('click', () => hideMenu());
-  }
-);
+responsiveNav.addEventListener('click', () => hideMenu());
 
 window.onscroll = function() {
   let position = about.getBoundingClientRect().y;
