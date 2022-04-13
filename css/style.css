@@ -4,9 +4,9 @@
 }
 
 :root {
-  --b-color: #2B2E4A;
-  --dr-color: #903749;
-  --r-color: #E84545;
+  --b-color: #0E3569;
+  --dr-color: #000;
+  --r-color: #d6dee6;
 }
 
 ::-webkit-scrollbar {
